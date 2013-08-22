@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assert_is_instance(${1:object}, ${2:class})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>noseAssertIsInstance</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

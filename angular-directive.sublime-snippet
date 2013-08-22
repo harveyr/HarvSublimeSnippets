@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+    .directive('$1', ($2) ->
+        directiveObject = 
+            scope:
+                $3: '='
+            template: """
+                $4
+            """
+            link: (scope) ->
+                $5
+        directiveObject
+    )
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>angdirective</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

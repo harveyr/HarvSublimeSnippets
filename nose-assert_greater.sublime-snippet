@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assert_greater(${1:greater}, ${2:lesser})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>assert_greater</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
