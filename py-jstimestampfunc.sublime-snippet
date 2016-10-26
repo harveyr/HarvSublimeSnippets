@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+def js_timestamp(dt):
+    epoch = datetime.datetime(1970, 1, 1)
+    return int((dt - epoch).total_seconds()) * 1000
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jstimestampfunc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
